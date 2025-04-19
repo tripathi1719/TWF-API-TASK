@@ -5,7 +5,6 @@ from pydantic import RootModel
 
 app = FastAPI()
 
-# 👉 PLACE IT HERE
 PRODUCT_WAREHOUSE_MAPPING = {
     "A": ["C1"],
     "B": ["C1"],
@@ -20,8 +19,8 @@ PRODUCT_WAREHOUSE_MAPPING = {
 
 WAREHOUSE_COST = {
     "C1": 50,
-    "C2": 36,  # Acceptable for lower use cases
-    "C3": 82   # So we don’t overrun when D is added
+    "C2": 36,  
+    "C3": 82   
 }
 
 
